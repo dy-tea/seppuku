@@ -1,0 +1,13 @@
+[package]
+name = "seppuku"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.relm4]
+version = "0.9"
+features = ["libadwaita"]
+
+[dependencies.adw]
+package = "libadwaita"
+version = "0.7.0"
+features = ["v1_5"]
